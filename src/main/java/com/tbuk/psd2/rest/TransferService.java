@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tbuk.psd2.model.payment.request.PaymentRequest;
 import com.tbuk.psd2.model.payment.response.PaymentResponse;
 import io.swagger.annotations.Api;
-import io.token.proto.common.notification.NotificationProtos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,17 +20,7 @@ public class TransferService {
 	TransferServ service;
 
 	//GENERIC
-	@RequestMapping(value="/transfers2",method=RequestMethod.POST)
-	public ResponseEntity<String> transfer2(NotificationProtos.PaymentRequest paymentRequest) {
 
-		try { // GECICI : ilk odeme mesajini alabilmek icin cunku adamlar ornek vermiyorlar, dev portaldaki de schema ile uymuyor
-			ObjectMapper mapper = new ObjectMapper();
-			String request = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(paymentRequest);
-			System.out.println("-- Received a transfer request --");
-			System.out.println(request);
-		}catch (Exception e){e.printStackTrace();}
-		return new ResponseEntity<String>("",HttpStatus.OK);
-	}
 	@RequestMapping(value="/transfers",method=RequestMethod.POST)
 	public ResponseEntity<PaymentResponse> transfer(@RequestBody PaymentRequest paymentRequest)  {
 

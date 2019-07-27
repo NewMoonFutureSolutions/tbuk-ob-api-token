@@ -15,7 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@Api(value="/storage",description="Linking Service",produces ="application/json")
+@Api(value="/storage",description="Storage Service",produces ="application/json")
 public class StorageService {
  
 	@Autowired

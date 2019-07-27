@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@Api(value="/consents",description="Consent Service",produces ="application/json")
+@Api(value="/notifications",description="Notification Service",produces ="application/json")
 public class NotificationService {
 
 	@RequestMapping(value="/notifications",method=RequestMethod.PUT)
