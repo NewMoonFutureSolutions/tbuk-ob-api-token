@@ -26,7 +26,7 @@ public class App  {
        LoadData();
       ApplicationContext context = SpringApplication.run(App.class, args);
       logger.info("TBUK PSD2 Services started "+LocalDateTime.now());
-      Thread.sleep(50000);
+      Thread.sleep(5000);
   }
 
   private static void LoadData(){

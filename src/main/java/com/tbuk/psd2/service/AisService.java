@@ -77,9 +77,9 @@ public class AisService {
         List<Destination> destinations=new ArrayList<>();
 
         String accountNo=CONSTANTS.INFOMAP.get("customer1.account1.accountNumber");
-        String sortcode=CONSTANTS.INFOMAP.get("customer1.account1.accountNumber");
-        String bic=CONSTANTS.INFOMAP.get("customer1.account1.accountNumber");
-        String iban=CONSTANTS.INFOMAP.get("customer1.account1.accountNumber");
+        String sortcode=CONSTANTS.INFOMAP.get("customer1.account1.sortcode");
+        String bic=CONSTANTS.INFOMAP.get("customer1.account1.bic");
+        String iban=CONSTANTS.INFOMAP.get("customer1.account1.iban");
 
         destinations.add(Destination.builder().FPS(FPS.builder().accountNumber(accountNo).sortCode(sortcode).build()).build());
         destinations.add(Destination.builder().SWIFT(SWIFT.builder().accountNumber(iban).bic(bic).build()).build());

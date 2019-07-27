@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4bacd68d-0bf3-4b03-a478-8fc6f1747938" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/TransferServ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/TransferServ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/temp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/Samples1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/TempInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/rest/TransferService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/TransferServ.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="125">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/ConsentServ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/LinkingServ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="41" column="108" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="81" column="66" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +95,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="163">
+              <caret line="22" column="99" selection-start-line="21" selection-start-column="27" selection-end-line="22" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,6 +137,7 @@
       <find>bankAcctList</find>
       <find>204</find>
       <find>404</find>
+      <find>&quot;UK&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>b</replace>
@@ -145,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/account/response/TransactionsPageResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/account/TransferDestinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/account/enums/AccountType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/account/Entry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/account/response/AccountDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/notification/request/Notification.java" />
@@ -153,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/rest/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/linking/NoopMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/LinkingServ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/payment/response/TransactionStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/common/TransactionStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/payment/response/PaymentResponse.java" />
@@ -173,6 +198,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/temp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/TransferServ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java" />
       </list>
     </option>
   </component>
@@ -247,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564257320410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564262983729" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -352,7 +379,7 @@
     <frame x="0" y="23" width="1366" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +388,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5662848" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5662848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,16 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/ConsentServ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,16 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/model/payment/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -488,16 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/LinkingServ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="41" column="108" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -536,13 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="190" column="13" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="55" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -650,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/rest/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -749,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -775,8 +748,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/TransferServ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="192">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/util/DummyResponses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="99" selection-start-line="21" selection-start-column="27" selection-end-line="22" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/ConsentServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/LinkingServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="41" column="108" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tbuk/psd2/service/AisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="81" column="66" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
