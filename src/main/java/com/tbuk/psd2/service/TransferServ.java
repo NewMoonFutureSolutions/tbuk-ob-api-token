@@ -15,24 +15,30 @@ public class TransferServ {
 
     public PaymentResponse transfer(PaymentRequest paymentRequest){
 
+     if(!CONSTANTS.TnxTransferMap.containsKey(paymentRequest.transferId)){
         // add this txn into hash table temp ( daha sonra sorarlarsa diye hashtable a kaydedelim)
         CONSTANTS.transactionId++;
         String txnId=String.valueOf(CONSTANTS.transactionId);
         TransactionResponse tr=TransactionResponse.builder().id(String.valueOf(CONSTANTS.transactionId))
-                .amount(Amount.builder().currency("GBP").value("800").build())
+                .amount(Amount.builder().currency(paymentRequest.getTransactionAmount().getCurrency()).value(paymentRequest.getTransactionAmount().getValue()).build())
                 .createdAt(Utils.getDateNowInFormat1())
-                .description("Room rent")
+                .description(paymentRequest.getDescription())
                 .status(TransactionStatus.SUCCESS.getStatus())
                 .type("DEBIT")
                 .tokenId("1") // boyle bir bilgi gondermiyorlar
                 .tokenTransferId(paymentRequest.transferId).build();
 
-        CONSTANTS.COSTUMER1TRANSACTIONS.put(txnId,tr);
+         CONSTANTS.COSTUMER1TRANSACTIONS.put(txnId, tr);
+         CONSTANTS.TnxTransferMap.put(paymentRequest.transferId, txnId); // they ask for transferId in transfer service, txnid in account
+         return PaymentResponse.builder().transactionId(txnId)
+                 .status(TransactionStatus.PROCESSING.getStatus()).statusDescription("Received by TBUK").build();
 
-        CONSTANTS.TnxTransferMap.put(paymentRequest.transferId,txnId); // they ask for transferId in transfer service, txnid in account
+     }
+     else {
+         return PaymentResponse.builder()
+                 .status(TransactionStatus.FAILURE_GENERIC.getStatus()).statusDescription("TransferId already exist.").build();
+        }
 
-       return PaymentResponse.builder().transactionId(txnId)
-                .status(TransactionStatus.PROCESSING.getStatus()).statusDescription("Received by TBUK").build();
     }
 
     // su anki hali eger transfer servisten gonderilmisse PROCESSING diye yaziyor.

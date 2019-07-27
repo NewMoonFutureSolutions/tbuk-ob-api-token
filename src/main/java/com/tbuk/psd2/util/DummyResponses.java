@@ -33,14 +33,5 @@ public class DummyResponses {
 
     }
 
-    public static BankAccount getBankAccount(int op){
-        switch(op){
-            case 1: return BankAccount.builder().custom(Custom.builder().bankId(CONSTANTS.BANKID).payload("0100-000000-12345678").build()).build();
-            case 2: return BankAccount.builder().custom(Custom.builder().bankId(CONSTANTS.BANKID).payload("0100-000000-12345678").build()).build();
-
-            default:return null;
-        }
-
-    }
 
 }
