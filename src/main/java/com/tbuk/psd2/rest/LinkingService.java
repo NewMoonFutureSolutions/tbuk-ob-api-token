@@ -4,6 +4,7 @@ package com.tbuk.psd2.rest;
 import com.tbuk.psd2.model.common.HttpHeaders;
 
 import com.tbuk.psd2.model.linking.AuthorizationResponse;
+import com.tbuk.psd2.rest.error.LinkServiceException1;
 import com.tbuk.psd2.service.ConsentServ;
 import com.tbuk.psd2.service.LinkingServ;
 import io.swagger.annotations.Api;
@@ -24,7 +25,10 @@ public class LinkingService {
         AuthorizationResponse response=null;
 	    try{
             response=service.authorisationResponse(accessToken);
-        }catch (Exception e){e.printStackTrace();}
+        }catch (Exception e){
+	    	e.printStackTrace();
+	    	throw new LinkServiceException1("Access token is missing or invalid.");
+	    }
 		return new ResponseEntity<AuthorizationResponse>(response,HttpStatus.OK);
 	}
 
